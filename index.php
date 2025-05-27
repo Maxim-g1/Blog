@@ -18,7 +18,7 @@
         <button type="submit">Опубликовать</button>
     </form>
 
-    <script src="JS/script.js"></script>
+    <script src="JS/scriptt.js"></script>
 </body>
 
 </html>
