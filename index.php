@@ -1,3 +1,16 @@
+<?php
+session_start();
+
+if($_SESSION["admin"]){
+
+}else{
+    header("Location: login.php");
+}
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -18,7 +31,7 @@
         <button type="submit">Опубликовать</button>
     </form>
 
-    <script src="JS/scriptt.js"></script>
+    <script src="JS/scrip.js"></script>
 </body>
 
 </html>

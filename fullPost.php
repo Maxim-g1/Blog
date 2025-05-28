@@ -1,8 +1,8 @@
 <?php
-require "db.php";
+require 'db.php';
 
 
-   
+   if (isset($_GET['id'])) {
 
 $query = "SELECT * FROM posts_list";
 $result = mysqli_query($connection, $query);
@@ -22,7 +22,7 @@ foreach ($postData as $postItem){
     }
    
 };
-
+   }
 
 
 
