@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body, html{
+    margin: 0;
+    
+}
+
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+  
+   background-color: red;
+   color: white;
+   height: 100px;
+   font-size: 46px;
+ margin: 0;
+padding-top: 20px;
+padding-left: 10px;
+}
+
+.itemPost{
+
+    width: 400px;
+ 
+    text-align: center;
+}
+
+#post_list{
+    list-style: none;
+}
+
+.list_title{
+    margin: 0;
+background-color: red;
+border-radius: 15px;
+height: 40px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+align-items: center;
+color: white;
+font-size: 35px;
+
+}
+
+.list_text{
+overflow: hidden;
+margin: 0;
+margin-top: 10px;
+
+}
+.list_date{
+margin: 0;
+}
+.list_btn{
+background-color: red;
+border: none;
+border-radius: 5px;
+height: 35px;
+width: 100px;
+margin-bottom: 5px;
+color: white;
+}
+
+.list_a{
+
+border: none;
+color: white;
+text-decoration: none;
+font-size: 12px;
+
+}
+
+.block_a{
+    background-color: red;
+    border-radius: 5px;
+width: 100px;
+  height: 35px;
+  padding-top: 6px;
+  margin-left:149px;
+  margin-bottom: 5px;
+}
+
+
+
+.list_content{
+     border: solid black 0.5px;
+     border-bottom-right-radius: 15px;
+     border-bottom-left-radius: 15px;
+
+}
+
+.block_content{
+    display: flex;
+}
+
+.input_title{
+height: 40px;
+width: 300px;
+   border-radius: 5px;
+      border: solid red 0.5px;
+}
+.input_text{
+    height: 100px;
+    width: 300px;
+    resize: none;
+       border-radius: 5px;
+          border: solid red 0.5px;
+}
+.input_btn{
+    background-color: red;
+border: none;
+border-radius: 5px;
+height: 35px;
+width: 100px;
+color: white;
+
+}
+
+.form{
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
+
+
+.textPost{
+    font-size: 30px;
+    word-break: break-all;
+}
+
+
+.post_a{
+
+border: none;
+color: white;
+text-decoration: none;
+font-size: 14px;
+
+}
+
+.blockPost_a{
+    background-color: red;
+    border-radius: 5px;
+width: 100px;
+  height: 35px;
+  padding-top: 9px;
+  padding-left: 3px;
+
+}
+
+
+
+.titleLogin{
+    
+ margin-top: 100px;
+    background-color: red;
+    width: 400px;
+    margin-bottom: 0;
+    border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+text-align: center;
+color: white;
+}
+
+.loginForm {
+    text-align: center;
+    border: solid red 0.5px;
+     width: 400px;
+height: 130px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+.login {
+    width: 350px;
+    margin-bottom: 10px;
+   margin-top: 10px;
+   border: solid red 0.5px;
+}
+.password {
+      width: 350px;
+    margin-bottom: 10px;
+    border: solid red 0.5px;
+}
+.loginBtn {
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    width: 120px;
+    height: 35px;
+}
+
+
+.wrapperLogin{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
