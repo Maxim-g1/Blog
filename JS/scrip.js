@@ -1,15 +1,4 @@
 
-function fullPost(postId) {
-    
-        fetch(`fullPost.php?id=${postId}`)
-            .then(() => {
-                window.location.href="fullPost.php"
-            })
-            .catch((error) => {
-             window.location.href="fullPost.php"
-            })
-    
-}
 
 function deletePost(postId) {
      if (confirm("Вы точно хотите удалить задачу?")) {
@@ -44,10 +33,11 @@ function loadPosts() {
             data.forEach((post) => {
 
                 const listItem = document.createElement('li');
+                listItem.classList.add("itemPost")
                 
-                
-                listItem.innerHTML = `${post.title}<br>${post.textPost}<br>${post.datePost}<button onclick='fullPost(${post.id})'>Читать далее</button><br>
-                <button onclick='deletePost(${post.id})'>Удалить</button><br><br>`
+                listItem.innerHTML = `<p class="list_title">${post.title}</p> <div class ="list_content"><p class="list_text">${post.textPost}</p> <br> <p class="list_date">${post.datePost}</p>
+                <div class="block_a"><a class="list_a" href="fullPost.php?id=${post.id}">Читать далее</а> </div>
+                <button class="list_btn" onclick='deletePost(${post.id})'>Удалить</button></div><br><br>`
 
                 post_list.appendChild(listItem);
             });

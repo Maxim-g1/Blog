@@ -2,7 +2,7 @@
 require 'db.php';
 
 
-$query = "SELECT * FROM posts_list ORDER BY datePost ASC";
+$query = "SELECT * FROM posts_list ORDER BY datePost DESC, id DESC";
 
 
 $result = mysqli_query($connection, $query);
